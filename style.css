@@ -110,8 +110,40 @@ button:hover{
     color: #6ad0ff;
     padding: 10px;
     margin-top: 5px;
+    font-size: 25px;
+    text-shadow: 5px 2px 5px #000000;
 }
 
 .btn{
     margin-top: 10px;
+}
+
+.insta :hover{
+    color: #C13584;
+    transition: 1s;
+    font-size: 1.7rem;
+}
+
+.tt :hover{
+    color: #1DA1F2;
+    transition: 1s;
+    font-size: 1.7rem;
+}
+
+.tw :hover{
+    color: #6441a5 ;
+    transition: 1s;
+    font-size: 1.7rem;
+}
+
+.lk :hover{
+    color: #0e76a8;
+    transition: 1s;
+    font-size: 1.7rem;
+}
+
+.git :hover{
+    color: #e8eaea;
+    transition: 1s;
+    font-size: 1.7rem;
 }
