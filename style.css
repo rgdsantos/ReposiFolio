@@ -9,72 +9,17 @@
     font-family: "Poppins", sans-serif;
 }
 
-main{
-    height: 3000px;
-}
-
 body{
-
+    overflow: hidden;
 }
 
-.Logo1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.Logo1 img{
-    width: 300px;
-    cursor: pointer;
-}
-
-.site-header {
-    background-color: #2a2b2d !important;
-    z-index: 8;
+.background{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    display: flex;
-    gap: 3rem;
-    font-weight: 300;
-    justify-content: center;
-    align-items: center;
-}
-
-.site-logo{
-    height: 80px;
-    width: 80px;
-    display: flex;
-}
-
-.brlogo{
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.site-conteudo{
-    width: 600px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.site-conteudo li{
-    font-size: 15px;
-    display: flex;
-    padding-left: 15px;
-
-}
-
-.site-boton{
-    width: 230px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.site-header .site-boton{
-    padding-left: 15px;
-    display: flex;
+    height: 100vh;
 }
 
 header{
@@ -83,6 +28,7 @@ header{
     max-width: 100%;
     align-items: center;
     text-align: center;
+    padding-top: 1rem;
 }
 
 .cabeçalho-link{
@@ -92,86 +38,51 @@ header{
     cursor: pointer;
 }
 
-.site-header a{
+.cabeçalho-link a{
     color: #fff;
-    font-size: 15px;
+    font-size: 12px;
 
 }
 
-.site-header a:hover{
+.cabeçalho-link a:hover{
     color: #6ad0ff;
     transition: 0.3s all;
 }
 
-.site-content{
-    height: 2000px;
-}
-
-.barra1{
-    height: 70px;
-    background-color: #7289da;
-    display: flex;
-    justify-content: center;
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #6ad0ff;
+    color: #6ad0ff;
+    border-radius: 50%;
+    display: inline-flex;
     align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
 }
 
-.overlay{
-    height: 600px;
+button{
+    color: #6ad0ff;
+    background: transparent;
+    border: solid 1px #6ad0ff;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #6ad0ff;
     color: #fff;
-    background-image: url(img/back2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+    transition: 0.5s;
 
-.button1{
-    color: #ffffff;
-    background: #086abb;
-    border: transparent;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 15px;
-    width: 80px;
-    height: 40px;
-    cursor: pointer;
-    transition: 0.3s all;
-}
-
-.button1:hover{
-    color: #ffffff;
-    background: #075ca1;
-    border: transparent;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 15px;
-    transition: 0.3s all;
-}
-
-.button2{
-    color: #ffffff;
-    background: #5a5a5a;
-    border: transparent;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 15px;
-    width: 100px;
-    height: 40px;
-    cursor: pointer;
-    transition: 0.3s all;
-}
-
-.button2:hover{
-    color: #ffffff;
-    background: #525252;
-    border: transparent;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 15px;
-    transition: 0.3s all;
 }
 
 .container-text{
     padding: 150px 0 0 130px;
-    background-image: url(img/background.jpg);
 }
 
 .text h3{
